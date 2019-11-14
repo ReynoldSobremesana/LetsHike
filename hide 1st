@@ -1,0 +1,21 @@
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Righteous', cursive;
+
+
+      <!-- end of navbar -->
+
+
+      <!-- Footer Section -->
+
+      <footer>
+        <div class="container head-foot">
+          <div class="row py-3">
+            <div class="col-12">
+              <p class="mb-0 text-center"> All rights reserved &copy; 2019. Reynold Sobremesana</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+

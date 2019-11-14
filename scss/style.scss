@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+$theme-colors: (
+	"primary" : #D3FAC7,
+	"secondary" : #B4EBCA,
+	"tertiary" : #C1B098,
+
+	);
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+:root {
+	font-size: 18px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+	height: 100%;
+	width:	100%;
+}
+
+.landingbg {
+
+	height: 100vh;
+	background-image: url(./../images/landingbg.jpg);		
+	width: 100%;	
+	margin: 0;
+	display: block;
+	background-image: center center;
+	background-size: cover;
+	opacity: .8;
+
+}
+
+.foot {
+	position: fixed;
+	bottom: 0;
+	width: 100%;	
+}
+
+.head-foot {	
+	padding: 10px;
+	background-color: #D3FAC7;
+	color: black;
+	border-style: outset;
+	border-radius: 3.5px;
+	border-color: #7D8491;
+	opacity: .75;
+	padding: 20px;
+
+}
+
+div a {
+	color: black;
+	border-style: outset;
+	border-radius: 3.5px;
+	border-color: #7D8491;
+	padding: 20px;
+}
+
+.quotes {
+
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	color: black;
+	position: absolute;
+	left: 50%;
+    top: 33%;
+    height: 100px;
+    margin-top: -50px;
+    width: 400px;
+    margin-left: -200px;
+
+	
+}
+
