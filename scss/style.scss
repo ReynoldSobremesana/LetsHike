@@ -10,6 +10,7 @@ $theme-colors: (
 	"tertiary" : #C1B098,
 
 	);
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 :root {
@@ -53,7 +54,7 @@ html {
 
 }
 
-div a {
+#lan-nav {
 	color: black;
 	border-style: outset;
 	border-radius: 3.5px;
