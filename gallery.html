@@ -58,65 +58,23 @@
 
     <!-- start of card -->
     <div class="container-fluid p-5 my-5">
-      <div class="row">
-        <div class="col-12 col-md-4">
-          <div class="card animated rollIn">
-            <div class="card-header">
-              <h3>Let's Hi~ke!</h3>
-            </div>
-            <img class="card-img-top" src="./assets/images/gal.jpg">
-            <div class="card-body">
-              <h4 class="card-title">Solo</h4>
-              <p class="card-text">
-                "Going alone, no problem. Wanna join a group or want to go with other solo hikers, We got you covered." 
-              </p>
-            </div>
-            <div class="card-footer text-center">
-              <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">I wanna join!</button>
-            </div>
-          </div>
+      <div class="row">    
+        <div class="col-12 col-md-4">              
+          <img src="./assets/images/gal.jpg" class="img-fluid galimg  animated rollIn" data-toggle="modal" data-target="#galimg">            
         </div>
         <!-- end of card -->
 
         <!-- start of 2nd card -->
 
-        <div class="col-12 col-md-4">
-          <div class="card animated rollIn">
-            <div class="card-header">
-              <h3>Let's Hi~ke!</h3>
-            </div>
-            <img class="card-img-top" src="./assets/images/gal2.jpg">
-            <div class="card-body">
-              <h4 class="card-title">Couple</h4>
-              <p class="card-text">
-                "Going with your special someone, We could arrange that for you aswell so you could hike with other couples or a group aswell."
-              </p>
-            </div>
-            <div class="card-footer text-center">
-              <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">I wanna join!</button>
-            </div>
-          </div>
+        <div class="col-12 col-md-4">              
+          <img src="./assets/images/couple-gal.jpg" class="img-fluid galimg  animated rollIn" data-toggle="modal" data-target="#coupleimg">            
         </div>
 
         <!-- end of 2nd card -->
         <!-- start of 3rd card -->
 
-        <div class="col-12 col-md-4">
-          <div class="card animated rollIn">
-            <div class="card-header">
-              <h3>Let's Hi~ke!</h3>
-            </div>
-            <img class="card-img-top" src="./assets/images/kids-gal.jpg">
-            <div class="card-body">
-              <h4 class="card-title">With kids</h4>
-              <p class="card-text">
-                "Going with your kids, We could help you with that." 
-              </p>
-            </div>
-            <div class="card-footer text-center">
-              <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">I wanna join!</button>
-            </div>
-          </div>
+        <div class="col-12 col-md-4">              
+          <img src="./assets/images/kids-gal.jpg" class="img-fluid galimg  animated rollIn" data-toggle="modal" data-target="#kidsimg">            
         </div>
         <!-- end of 3rd card -->
       </div>
@@ -125,43 +83,14 @@
     <!-- start of card -->
     <div class="container-fluid p-5 my-5">
       <div class="row">
-        <div class="col-12 col-md-4 offset-md-2">
-          <div class="card animated rollIn">
-            <div class="card-header">
-              <h3>Let's Hi~ke!</h3>
-            </div>
-            <img class="card-img-top" src="./assets/images/grouphike-gal.jpg">
-            <div class="card-body">
-              <h4 class="card-title">Group</h4>
-              <p class="card-text">
-                "Small or a very big group, First timers or with experience. Let's Hi~ke together." 
-              </p>
-            </div>
-            <div class="card-footer text-center">
-              <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">I wanna join!</button>
-            </div>
-          </div>
+        <div class="col-12 col-md-4 offset-md-2">              
+          <img src="./assets/images/grouphike-gal.jpg" class="img-fluid galimg  animated rollIn" data-toggle="modal" data-target="#grouphikeimg">            
         </div>
         <!-- end of card -->
 
         <!-- start of 2nd card -->
-
-        <div class="col-12 col-md-4">
-          <div class="card animated rollIn">
-            <div class="card-header">
-              <h3>Let's Hi~ke!</h3>
-            </div>
-            <img class="card-img-top" src="./assets/images/grouptop-gal.jpg">
-            <div class="card-body">
-              <h4 class="card-title">The Top</h4>
-              <p class="card-text">
-                "Let's say Hi~ then Hike with each other... Let's go Hi~ke!!!" 
-              </p>
-            </div>
-            <div class="card-footer text-center">
-              <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">I wanna join!</button>
-            </div>
-          </div>
+        <div class="col-12 col-md-4">              
+          <img src="./assets/images/grouptop-gal.jpg" class="img-fluid galimg  animated rollIn" data-toggle="modal" data-target="#grouptopimg">            
         </div>
         <!-- end of 2nd card -->
       </div>
@@ -169,69 +98,106 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+    <!-- 1st modal -->
+    <div class="modal fade" id="galimg" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
+          <div class="modal-header" id="modalhead">
+            <h5 class="modal-title" id="modal-title">Solo</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true"> x </span></button>
+          </div>
+          <img src="./assets/images/gal.jpg" class="img-fluid modalimg">
+        </div>
+      </div>
+    </div>
 
-          <!-- end end end -->
+    <!-- end of 1st modal -->
+    <!-- 2nd modal -->
 
-          <div class="container modalcard">
-            <div class="row">
-              <div class="col-12 col-md-8 offset-md-2 mx-auto">
+    <div class="modal fade" id="coupleimg" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" id="modalhead">
+            <h5 class="modal-title" id="modal-title">Walking Together</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true"> x </span></button>
+          </div>
+          <img src="./assets/images/couple-gal.jpg" class="img-fluid modalimg">
+        </div>
+      </div>
+    </div>
 
-                <!-- Start of form -->
+    <!-- end of 2nd modal -->
+    <!-- 3rd modal -->
 
-                <form>
-                  <!-- Email Input -->
-                  <div id="form" class="form-group">
-                    <label for="email">E-MAIL:</label>
-                    <input type="email" name="" id="email" class="form-control modalcard2" placeholder="Please input a valid E-mail.">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                  </div>
-                  <!-- Message Input -->
-                  <div class="form-group">
-                    <label for="message">About yourself:</label>
-                    <textarea id="message" class="form-control modalcard2" rows="8" cols="15">"Please tell us more about yourself."</textarea>
-                  </div>          
-                </form>
-                <!-- End of form -->
+    <div class="modal fade" id="kidsimg" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" id="modalhead">
+            <h5 class="modal-title" id="modal-title">With the kids</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true"> x </span></button>
+          </div>
+          <img src="./assets/images/kids-gal.jpg" class="img-fluid modalimg">
+        </div>
+      </div>
+    </div>
+
+    <!-- end of 3rd modal -->
+    <!-- 4th modal -->
+
+    <div class="modal fade" id="grouphikeimg" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" id="modalhead">
+            <h5 class="modal-title" id="modal-title">With peers</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true"> x </span></button>
+          </div>
+          <img src="./assets/images/grouphike-gal.jpg" class="img-fluid modalimg">
+        </div>
+      </div>
+    </div>
+
+    <!-- end of 4th modal -->
+    <!-- 5th modal -->
+
+    <div class="modal fade" id="grouptopimg" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" id="modalhead">
+            <h5 class="modal-title" id="modal-title">Reaching the Top!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true"> x </span></button>
+          </div>
+          <img src="./assets/images/grouptop-gal.jpg" class="img-fluid modalimg">
+        </div>
+      </div>
+    </div>
+
+    <!-- end of 5th modal -->
+    <!-- Footer Section -->
+
+    <footer class="bg-primary foot1 head-foot">
+      <div class="container">
+        <div class="row py-3">
+          <div class="col-12">
+            <p class="mb-0 text-center"> All rights reserved &copy; 2019. Reynold Sobremesana</p>
+            <div class="contact">
+            <a href="https://www.facebook.com/rey091983" target="_blank"><img src="./assets/images/fb.png" class="social-links"></a>
+            <a href="https://www.twitter.com/reynoldsobreme1" target="_blank"><img src="./assets/images/twitter.svg" class="social-links"></a>
+            <a href="https://www.instagram.com" target="_blank">       
+              <img src="./assets/images/ig.png" alt="social-instagram" class="social-links">
+              <a href="https://www.youtube.com" target="_blank">       
+                <img src="./assets/images/youtube.png" alt="social-youtube" class="social-links">
+              </div>
               </div>
             </div>
           </div>
-          <!-- end end end -->   
-          <div class="modal-footer modalcard">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end of cards -->
-  </main>
+        </footer>
 
- <!-- Footer Section -->
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-  <footer class="bg-primary foot1 head-foot">
-    <div class="container">
-      <div class="row py-3">
-        <div class="col-12">
-          <p class="mb-0 text-center"> All rights reserved &copy; 2019. Reynold Sobremesana</p>
-          <div class="contact"></div>
-          <a href="https://www.facebook.com/rey091983" target="_blank"><img src="./assets/images/fb.png" class="social-links"></a>
-          <a href="https://www.twitter.com/reynoldsobreme1" target="_blank"><img src="./assets/images/twitter.svg" class="social-links"></a>
-          <a href="https://www.instagram.com" target="_blank">       
-          <img src="./assets/images/ig.png" alt="social-instagram" class="social-links">
-          <a href="https://www.youtube.com" target="_blank">       
-          <img src="./assets/images/youtube.png" alt="social-youtube" class="social-links">
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-</body>
-</html>
+      </body>
+      </html>
